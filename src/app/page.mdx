@@ -1,0 +1,248 @@
+import { Box } from '@mui/material';
+import Image from "next-image-export-optimizer";
+
+import { TBD } from "@/components/TBD";
+import { CourseDataLink } from "@/components/links/CourseDataLink";
+import { SiteLink } from "@/components/links/SiteLink";
+import { UnderDevelopment } from "@/components/UnderDevelopment";
+import { default as AssignmentsOverview } from "@/content/AssignmentsOverview.mdx";
+import { courseData } from "@/data/CourseData";
+import { SiteLinks} from "@/data/SiteLinks";
+import { Paths } from "@/paths";
+
+import imgPhotoJames from "public/images/photo_james.jpg";
+import imgPhotoAnant from "public/images/photo_anant.jpg";
+
+# Course Overview
+
+<UnderDevelopment display={false} />
+
+## Course Description
+
+This course provides an introduction to forms of contribution in several major areas of research in Human-Computer Interaction.
+Course activities are based in a combination of readings, active discussion and reflection on readings, and a self-defined group project.
+Across all of these, the course considers HCI research in terms of:
+
+- **Contribution**: what knowledge is gained through research activities.
+- **Method**: how research activities are structured to demonstrate contributions.
+- **Framing**: why contributions are valued,
+               through motivation, language, theory, or understanding that can contextualize activities and contributions.
+
+Course readings emphasize a combination of historic framing papers and more recent contributions.
+Discussion and reflection emphasize consideration of readings in terms of their contributions,
+methods applied in those contributions, and framings of those contributions.
+The group project asks students to extend consideration of contributions, methods, and framings to their own activities.
+The combination of course activities is therefore intended to
+help students examine what the HCI research community considers a contribution across a variety of contexts,
+thus helping prepare students to understand and make meaningful contributions in these and other areas of HCI research.
+
+This course is explicitly not focused on iterative design methods or associated theory commonly emphasized in HCI practice.
+We do not assume a strong background in HCI (i.e., there is no undergraduate HCI prerequisite),
+but students seeking an introduction to effective design or an iterative design process will be better served by CSE 440.
+
+## Learning Objectives
+
+- Be able to differentiate forms of contribution in HCI research.
+- Be able to describe prior fundamental results that frame areas of HCI research.
+- Be able to articulate new contributions relative to such framings of areas of HCI research.
+- Be able to consider, evaluate, and apply common HCI research methods.
+
+## Course Staff
+
+{/* TODO: Make a component to clean up this mess of markup */}
+<Box display="flex" flexDirection="row" alignItems="flex-start">
+  <Box marginTop={-2} marginBottom={-2} marginRight={2}>
+    <p>James Fogarty</p>
+    <p>he/him</p>
+    <p>
+      {/* alt="", Treat as decorative, because name is read above */}
+      <Image src={imgPhotoJames}
+             basePath={Paths.basePath}
+             height="150"
+             alt=""
+      />
+    </p>
+  </Box>
+  <Box marginTop={-2} marginBottom={-2} marginRight={2}>
+    <p>Anant Mittal</p>
+    <p>he/him</p>
+    <p>
+      {/* alt="", Treat as decorative, because name is read above */}
+      <Image src={imgPhotoAnant}
+             basePath={Paths.basePath}
+             height="150"
+             alt=""
+      />
+    </p>
+  </Box>
+</Box>
+
+## Course Coordination
+
+- **Contact**
+
+  Email course staff at &lt;cse510-staff [at] cs.washington.edu&gt;.
+
+  Please do not email individual course staff.
+  Using the course staff email list promotes both staff coordination and a more prompt response.
+  Emails to individual course staff will typically have the staff email list added to any response.
+
+  Although we may provide a Slack channel for lightweight communication,
+  course staff cannot respond to individual inquiries via Slack.
+  Slack messages to individual staff will be redirected to either the public channel or the staff email list.
+
+- **Course Time & Location**
+
+  Tuesdays & Thursdays, 10:00-11:20.
+
+  [CSE2](https://www.washington.edu/maps/#!/cse2)
+  Room [G10](https://www.washington.edu/classroom/CSE2+G10).
+
+  The <SiteLink linkKey={SiteLinks.calendarTop} /> will provide any non-standard times, locations, or staffing.
+
+- **Office Hours**
+
+  By appointment.
+
+- **Canvas**
+
+  <CourseDataLink linkKey={courseData.linkCanvas} outerComponent="p"/>
+
+- **Drive**
+
+  <CourseDataLink linkKey={courseData.linkDrive} outerComponent="p"/>
+
+Course information and material will provided primarily on this website.
+
+Canvas and Drive will be used when appropriate for limiting access to course information and materials.
+
+## Assignments
+
+<AssignmentsOverview />
+
+## Grading
+
+Much of the grading in this course is necessarily subjective.
+We will attempt to communicate expectations and feedback throughout the course,
+but it is your responsibility to communicate with us if you would like additional guidance in this regard.
+
+
+The overall course grade will be computed as follows:
+
+- **15%: Reading, Discussion Posts, and In-Class Small Group Discussion.**
+
+  As described in <SiteLink outerComponent="span" linkKey={SiteLinks.assignmentsReadingsTop} />
+  and in <SiteLink outerComponent="span" linkKey={SiteLinks.assignmentsPresentationsTop} />.
+
+- **15%: Student-Led Presentations and Discussion Facilitation.**
+
+  As described in <SiteLink outerComponent="span" linkKey={SiteLinks.assignmentsPresentationsTop} />.
+  All students are expected to take on an appropriate share of student-led presentations and discussion facilitation,
+  including coordinating with course staff to ensure coverage of all necessary roles.
+
+- **45%: Project.**
+  - 5%: Proposal Preparation and Document.
+  - 5%: Milestone 1 Report and Presentation.
+  - 5%: Milestone 2 Report and Presentation.
+  - 30%: Final Report.
+
+  Project proposal and milestone grading will emphasize progress and preparation to engage with feedback.
+  Strong grades will result from honest presentation of project status and preparation for a conversation that can support the project
+  (e.g., realistic and concrete proposals, clear discussion of advice that a project currently needs).
+  Proposals or milestones that are less than candid and thoughtful
+  (e.g., vague, incomplete, oversold) fail to take full advantage of an opportunity for feedback.
+
+  Project final report grading will then emphasize overall project execution,
+  appropriate presentation of project activities (e.g., clarity of activities, contributions, and methods), and reflection.
+
+- **15%: Reflections.**
+
+  As described in <SiteLink outerComponent="span" linkKey={SiteLinks.assignmentsReflectionsTop} />.
+
+- **10%: Participation.**
+
+  A participation grade corresponds to course goals for students to actively develop skills in
+  discussing research activities, contributions, methods, and framings
+  (e.g., when discussing existing research, when discussing ongoing research).
+  Participation will therefore include engagement with in-class discussions and other course activities.
+
+  Participation will also include appropriate contribution in group assignments.
+
+If necessary, the grades of specific assignments may also be adjusted based on participation and contribution.
+
+### Late Policy
+
+We generally expect all assignments will be submitted according to deadlines in the assignment description.
+If there is a constraint or an emergency impacting your ability to submit an assignment,
+contact the course staff before the assignment deadline by email to the course staff list.
+
+We will do our best to be accommodating amidst requirements and expectations of the course
+(e.g., expecting clear and early communication regarding any constraints,
+understanding that assignments supporting in-class discussion serve little purpose after that discussion,
+understanding that assignments support engagement and grading throughout the course).
+
+### Regrade Policy
+
+Any request for grade clarification or a re-grade must be submitted by email to the course staff list.
+Requests will only be considered within 7 days of the release of a grade.
+
+Because reflection grading is both subjective and anonymous, we will be highly averse to revisiting the grade of a reflection.
+We will proactively work to promote fairness in the grading of these assignments,
+and students should expect that we will decline a request to revisit the grade of a reflection
+(e.g., because we cannot preserve anonymity in such a request).
+
+Upon calculation of final grades, we will explicitly check for any particularly unfortunate effects of rounding
+(e.g., adjusting a pre-rounding final grade of 3.649 to instead give a 3.7).
+This is intended to provide peace of mind that final grades were not defined by any minor point deduction.
+
+## Expectation of In-Person Participation
+
+The course heavily emphasizes required in-person activities, including student-led presentations and discussions.
+Full engagement with and contribution in group project activities also requires in-person participation.
+In-person participation is therefore a required component of the course,
+will be included in participation grading,
+and can also impact grading of other course activities.
+Remote participation will not be supported.
+
+### Absence-Related Communication
+
+If you will be absent for any reason, contact the course staff before class by email to the course staff list.
+We will track absence-related communication as part of the expectation of in-person participation,
+including any context you want to share about the need for an absence.
+We will do our best to be accommodating amidst requirements and expectations of the course.
+
+### COVID-19 Safety, Recordings, and Zoom
+
+There may be reasons you cannot or should not participate in-person, including COVID-19 exposure or symptoms.
+Our goal is for this course to provide an opportunity for learning without undermining safety,
+and we all share responsibility for preserving safety of this learning environment.
+Please review and adhere to COVID-19 related guidance, including:
+
+<CourseDataLink linkKey={courseData.linkUniversityCovidGuidelines} outerComponent="p"/>
+
+We will aim to record course sessions (e.g., unless a guest indicates they do not want to be recorded).
+Recorded sessions will be available for review within
+<CourseDataLink linkKey={courseData.linkCanvas}>Canvas</CourseDataLink>.
+However, we expect recordings will be of relatively poor quality
+and they are obviously an incomplete proxy for a discussion-focused course.
+Nevertheless, recording may sometimes be the best available option.
+
+We may also use Zoom as an accommodation (e.g., due to illness, due to requirements of a guest).
+Zoom participation will use meeting information provided by email and in
+<CourseDataLink linkKey={courseData.linkCanvas}>Canvas</CourseDataLink>.
+
+## Accommodations and University Policies
+
+Additional university policies apply
+(e.g., regarding Academic Integrity, Conduct, Disability Resources, Face Coverings, Religious Accommodations):
+
+<CourseDataLink linkKey={courseData.linkUniversitySyllabusGuidelines} outerComponent="p"/>
+
+Please do not hesitate to contact the course staff regarding these or any other accommodations.
+We are happy that you are here and want to support your engagement in this learning environment.
+
+## Contributing
+
+This course website lives on GitHub:
+
+<CourseDataLink linkKey={courseData.linkGitHub} outerComponent="p"/>
