@@ -1,10 +1,9 @@
 import { AssignmentDueDateTime } from "@/components/AssignmentDueDateTime";
 import { TBD } from "@/components/TBD";
 import { UnderDevelopment } from "@/components/UnderDevelopment";
-import { CourseDataLink } from "@/components/links/CourseDataLink";
+import { AssignmentSubmitCanvasLink } from "@/components/links/AssignmentSubmitCanvasLink";
 import { SiteLink } from "@/components/links/SiteLink";
 import { calendarData } from "@/data/CalendarData";
-import { courseData } from "@/data/CourseData";
 import { SiteLinks } from "@/data/SiteLinks";
 
 # Reflections
@@ -83,19 +82,19 @@ Submit your reflections in PDF format:
 - Required Contribution Reflection:
   - Due: <AssignmentDueDateTime assignmentKey={calendarData.assignments.reflectionContribution} />
 
-  - <CourseDataLink outerComponent="p" linkKey={courseData.linkCanvasReflectionRequiredContribution} />
+  - <AssignmentSubmitCanvasLink outerComponent="p" assignmentKey={calendarData.assignments.reflectionContribution} />
 
 - Required Method Reflection:
   - Due: <AssignmentDueDateTime assignmentKey={calendarData.assignments.reflectionMethod} />
 
-  - <CourseDataLink outerComponent="p" linkKey={courseData.linkCanvasReflectionRequiredMethod} />
+  - <AssignmentSubmitCanvasLink outerComponent="p" assignmentKey={calendarData.assignments.reflectionMethod} />
 
 - Required Framing Reflection:
   - Due: <AssignmentDueDateTime assignmentKey={calendarData.assignments.reflectionFraming} />
 
-  - <CourseDataLink outerComponent="p" linkKey={courseData.linkCanvasReflectionRequiredFraming} />
+  - <AssignmentSubmitCanvasLink outerComponent="p" assignmentKey={calendarData.assignments.reflectionFraming} />
 
 - Additional Reflection:
   - Due: <AssignmentDueDateTime assignmentKey={calendarData.assignments.reflectionAdditional} />
 
-  - <CourseDataLink outerComponent="p" linkKey={courseData.linkCanvasReflectionAdditional} />
+  - <AssignmentSubmitCanvasLink outerComponent="p" assignmentKey={calendarData.assignments.reflectionAdditional} />
