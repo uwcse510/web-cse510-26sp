@@ -1,4 +1,6 @@
 import { FormattedReading } from '@/components/FormattedReading';
+import { CourseDataLink } from '@/components/links/CourseDataLink';
+import { courseData } from '@/data/CourseData';
 
 Read the framing paper:
 
@@ -22,19 +24,26 @@ Each student has three responsibilities:
 - Select any two full papers from a recent major HCI research conference.
   Find papers by searching the web or by browsing and searching conference programs.
 
-  For example, [CHI 2024](https://chi2024.acm.org/) provides a searchable program:
+  For example, SIGCHI provides searchable programs of recent and upcoming conferences:
 
-  [CHI 2024 Program](https://programs.sigchi.org/chi/2024/program/all?CONTENT_TYPE%5B%5D=13341;13269&itemsType=CONTENT&sortDirection=asc&sortType=TITLE&viewType=LIST)
+  [SIGCHI Conference Programs](https://programs.sigchi.org/)
+
+  This includes papers at:
+
+  [CHI 2026](https://programs.sigchi.org/chi/2026/program/all?itemsType=CONTENT&sortDirection=asc&sortType=TITLE&viewType=LIST)
+
+  [CHI 2025](https://programs.sigchi.org/chi/2025/program/all?itemsType=CONTENT&sortDirection=asc&sortType=TITLE&viewType=LIST)
+
+  [CHI 2024](https://programs.sigchi.org/chi/2024/program/all?itemsType=CONTENT&sortDirection=asc&sortType=TITLE&viewType=LIST)
 
   Ensure papers you select are full papers
-  (i.e., marked as part of the "Papers" track in blue or the "Journals" track in green,
-  noting the link above is configured to filter content from other CHI 2024 tracks).
+  (i.e., marked as part of a "Papers" track or a "Journals" track).
 
   You may select any papers you want to spend more time reviewing
   (e.g., papers that seem interesting for any reason,
   papers related to a topic that might help inform your identification of a course project,
   papers related to a form of contribution or a method that might help inform your proposal of a course project).
-  Given this day's focus on forms of contribution,
+  Given our focus on forms of contribution,
   you may want to choose two papers that emphasize different forms of contribution.
 
   Review your selected papers with a focus on how they organize their research and present their contributions,
@@ -45,4 +54,4 @@ Each student has three responsibilities:
 
 - Submit this Form, sharing your selected papers and their primary form of contribution:
 
-  [https://forms.gle/YfaQDAhr5ucp6sKN9](https://forms.gle/YfaQDAhr5ucp6sKN9)
+  <CourseDataLink outerComponent="p" linkKey={courseData.linkFormContributionsInHCIConferencePapers} />
