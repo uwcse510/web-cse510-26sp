@@ -553,7 +553,20 @@ export const calendarData: {
         //     // "https://canvas.uw.edu/files/129729434/",
         //   },
         // ],
-        instances: [],
+        instances: [
+          {
+            authorText: "Chen Liang, Yuxuan Liu, Martez Mott, Anhong Guo.",
+            title: "HandProxy: Expanding the Affordances of Speech Interfaces in Immersive Environments with a Virtual Proxy Hand",
+            publicationText: "IMWUT 2025",
+            link: "https://doi.org/10.1145/3749484",
+          },
+          {
+            authorText: "Jeremy Zhengqi Huang, Caluã de Lacerda Pataca, Liang-Yuan Wu, Dhruv Jain",
+            title: "CapTune: Adapting Non-Speech Captions With Anchored Generative Models",
+            publicationText: "ASSETS 2025",
+            link: "https://doi.org/10.1145/3663547.3746346",
+          },
+        ],
       },
     },
     // Week 5
@@ -562,10 +575,33 @@ export const calendarData: {
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
       tbd: true,
-      title: "Research Topic: Computational Materials",
+      title: "Research Topic: Interactive Devices and Fabrication",
       guest: {
         name: "Yiyue Luo",
         link: "https://yyueluo.com/",
+      },
+      readingsStandard: {
+        framing: {
+          authorText: "Hiroshi Ishii, Dávid Lakatos, Leonardo Bonanni, Jean-Baptiste Labrune",
+          title: "Radical atoms: beyond tangible bits, toward transformable materials",
+          publicationText: "Interactions 2012",
+          link: "https://doi.org/10.1145/2065327.2065337",
+        },
+        // TODO: Decide Spring 2026 instance papers.
+        instances: [
+          {
+            authorText: "Junyi Zhu, Jackson C. Snowden, Joshua Verdejo, Emily Chen, Paul Zhang, Hamid Ghaednia, Joseph H. Schwab, Stefanie Mueller",
+            title: "EIT-kit: An Electrical Impedance Tomography Toolkit for Health and Motion Sensing",
+            publicationText: "UIST 2021",
+            link: "https://dl.acm.org/doi/10.1145/3472749.3474758",
+          },
+          {
+            authorText: "Yiyue Luo, Chao Liu, Young Joong Lee, Joseph DelPreto, Kui Wu, Michael Foshey, Daniela Rus, Tomás Palacios, Yunzhu Li, Antonio Torralba, Wojciech Matusik",
+            title: "Adaptive tactile interaction transfer via digitally embroidered smart gloves",
+            publicationText: "Nature Communications 2024",
+            link: "https://www.nature.com/articles/s41467-024-45059-8",
+          },
+        ],
       },
     },
     {
@@ -585,7 +621,20 @@ export const calendarData: {
           publicationText: "CHI 1999",
         },
         // TODO: Decide Spring 2026 instance papers.
-        instances: [],
+        instances: [
+          {
+            authorText: "Jeffrey Heer",
+            title: "Agency plus Automation: Designing Artificial Intelligence into Interactive Systems",
+            publicationText: "PNAS. 2019",
+            link: "https://www.pnas.org/doi/abs/10.1073/pnas.1807184115",
+          },
+          {
+            authorText: "K. J. Kevin Feng, Kevin Pu, Matt Latzke, Tal August, Pao Siangliulue, Jonathan Bragg, Daniel S. Weld, Amy X. Zhang, Joseph Chee Chang",
+            title: "Cocoa: Co-Planning and Co-Execution with AI Agents",
+            publicationText: "arXiv. 2024",
+            link: "https://arxiv.org/abs/2412.10999",
+          },
+        ],
       },
     },
     // Week 7
@@ -645,6 +694,28 @@ export const calendarData: {
         link: "http://audreydesjardins.com/",
       },
       // TODO: Decide Spring 2026 papers.
+      readingsStandard: {
+        // framing: {
+        //   authorText: "",
+        //   title: "",
+        //   publicationText: "",
+        // },
+        // TODO: Decide Spring 2026 instance papers.
+        instances: [
+          {
+            authorText: "Audrey Desjardins, Jena McWhirter, Justin Petelka, Chandler Simon, Yuna Shin, Ruby K Peven, Philbert Widjaja",
+            title: "On the Making of Alternative Data Encounters: The Odd Interpreters",
+            publicationText: "CHI 2023",
+            link: "https://dl.acm.org/doi/full/10.1145/3544548.3581323",
+          },
+          {
+            authorText: "Noura Howell, Audrey Desjardins, Sarah Fox",
+            title: "Cracks in the Success Narrative: Rethinking Failure in Design Research through a Retrospective Trioethnography",
+            publicationText: "ToCHI 2021",
+            link: "https://dl.acm.org/doi/full/10.1145/3462447",
+          },
+        ],
+      },
     },
     // Week 8
     {
