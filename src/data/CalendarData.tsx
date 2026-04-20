@@ -782,7 +782,7 @@ export const calendarData: {
       date: verifyCalendarDate("2026-06-04", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      tbd: true,
+      // tbd: true,
       title: "Research Topic: Sustained HCI Research in the World",
       guests: [
         {
@@ -800,6 +800,7 @@ export const calendarData: {
           title:
             "Ten Million Users and Ten Years Later: Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia",
           publicationText: "UIST 2021",
+          link: "https://canvas.uw.edu/files/147793197",
         },
         instances: [
           {
@@ -808,13 +809,14 @@ export const calendarData: {
             title:
               "Deploying and Examining Beacon for At-Home Patient Self-Monitoring with Critical Flicker Frequency",
             publicationText: "CHI 2025",
+            link: "https://canvas.uw.edu/files/148139389",
           },
-          // {
-          //   authorText: "Esther Han Beol Jang et al",
-          //   title: "Title Anonymized",
-          //   publicationText: "In Preparation",
-          //   link: "https://canvas.uw.edu/files/131458047/",
-          // },
+          {
+            authorText: "Shaan Chopra, Jeanne Carroll, Jessica Pater",
+            title: "Providing Context to the “Unknown”: Patient and Provider Reflections on Connecting Personal Tracking, Patient-Reported Insights, and EHR Data within a Post-COVID Clinic",
+            publicationText: "CSCW 2024",
+            link: "https://canvas.uw.edu/files/148941111",
+          },
         ],
       },
     },
