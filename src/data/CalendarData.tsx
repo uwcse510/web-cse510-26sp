@@ -791,7 +791,7 @@ export const calendarData: {
       date: verifyCalendarDate("2026-06-02", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      tbd: true,
+      // tbd: true,
       title: "Research Topic: HCI and Health",
       guest: {
         name: "Sean Munson",
@@ -802,10 +802,24 @@ export const calendarData: {
           authorText: "Petr Slovak, Sean A. Munson",
           title:
             "HCI Contributions in Mental Health: A Modular Framework to Guide Psychosocial Intervention Design",
-          publicationText: "CHI 2024",          
+          publicationText: "CHI 2024",
+          link: "https://canvas.uw.edu/files/149615618"
         },
         // TODO: Decide Spring 2026 instance papers.
-        instances: [],
+        instances: [
+          {
+            authorText: "Eunkyung Jo, Yuin Jeong, SoHyun Park, Daniel A. Epstein, Young-Ho Kim",
+            title: "Understanding the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention",
+            publicationText: "CHI 2024",
+            link: "https://canvas.uw.edu/files/149615361"
+          },
+          {
+            authorText: "Jessica L. Jenness, Arpita Bhattacharya, Julie A. Kientz, Sean A. Munson, Ria R. Nagar", 
+            title: "Lessons Learned from Designing an Asynchronous Remote Community Approach for Behavioral Activation Intervention for Teens",
+            publicationText: "Behaviour Research and Therapy 2022",
+            link: "https://canvas.uw.edu/files/149615360"
+          },
+        ],
       },
     },
     {
