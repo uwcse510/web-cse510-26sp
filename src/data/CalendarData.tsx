@@ -780,7 +780,7 @@ export const calendarData: {
             authorText:
               "Faria Huq, Zora Zhiruo Wang, Frank F. Xu, Tianyue Ou, Shuyan Zhou, Jeffrey P. Bigham, Graham Neubig",
             title: "COWPILOT: A Framework for Autonomous and Human-Agent Collaborative Web Navigation",
-            publicationText: "NAACL Demo 2025",
+            publicationText: "NAACL 2025 Demo",
             link: "https://canvas.uw.edu/files/149561482"
           },
         ],
