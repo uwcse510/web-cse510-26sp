@@ -121,8 +121,8 @@ export const courseData = {
     title: "Code and Contribution in Interactive Systems Research",
     publicationText:
       "CHI 2017 Workshop on #HCI.Tools: Strategies and Best Practices for Designing, Evaluating, and Sharing Technical HCI Toolkits",
-      link: "https://canvas.uw.edu/files/147531662",
-    },
+    link: "https://canvas.uw.edu/files/147531662",
+  },
 
   // Readings on methods
   readingMethodsWaysOfKnowing: {
@@ -151,8 +151,8 @@ export const courseData = {
     title: "Thematic Analysis",
     publicationText:
       "In The SAGE Handbook of Qualitative Research in Psychology. 2017",
-      link: "https://canvas.uw.edu/files/148139324",
-    },
+    link: "https://canvas.uw.edu/files/148139324",
+  },
 
   readingMethodsByrne2022: {
     authorText: "David Byrne",
