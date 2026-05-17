@@ -496,7 +496,7 @@ export const calendarData: {
           title:
             "DENIM: An Informal Web Site Design Tool Inspired by Observations of Practice",
           publicationText: "HCI. 2003",
-          link: "https://canvas.uw.edu/files/148138315"
+          link: "https://canvas.uw.edu/files/148138315",
         },
         instances: [
           {
@@ -504,14 +504,14 @@ export const calendarData: {
             title:
               "Exploring the Diminishing Allure of Paper and Low-Fidelity Prototyping Among Designers in the Software Industry: Impacts of Hybrid Work, Digital Tools, and Corporate Culture",
             publicationText: "CHI 2024",
-            link: "https://canvas.uw.edu/files/148138253"
+            link: "https://canvas.uw.edu/files/148138253",
           },
           {
             authorText: "Peitong Duan, Jeremy Warner, Yang Li, Bjoern Hartmann",
             title:
               "Generating Automatic Feedback on UI Mockups with Large Language Models",
             publicationText: "CHI 2024",
-            link: "https://canvas.uw.edu/files/147792902"
+            link: "https://canvas.uw.edu/files/147792902",
           },
         ],
       },
@@ -536,13 +536,16 @@ export const calendarData: {
         instances: [
           {
             authorText: "Chen Liang, Yuxuan Liu, Martez Mott, Anhong Guo.",
-            title: "HandProxy: Expanding the Affordances of Speech Interfaces in Immersive Environments with a Virtual Proxy Hand",
+            title:
+              "HandProxy: Expanding the Affordances of Speech Interfaces in Immersive Environments with a Virtual Proxy Hand",
             publicationText: "IMWUT 2025",
             link: "https://canvas.uw.edu/files/148756863",
           },
           {
-            authorText: "Jeremy Zhengqi Huang, Caluã de Lacerda Pataca, Liang-Yuan Wu, Dhruv Jain",
-            title: "CapTune: Adapting Non-Speech Captions With Anchored Generative Models",
+            authorText:
+              "Jeremy Zhengqi Huang, Caluã de Lacerda Pataca, Liang-Yuan Wu, Dhruv Jain",
+            title:
+              "CapTune: Adapting Non-Speech Captions With Anchored Generative Models",
             publicationText: "ASSETS 2025",
             link: "https://canvas.uw.edu/files/148756860",
           },
@@ -561,21 +564,27 @@ export const calendarData: {
       },
       readingsStandard: {
         framing: {
-          authorText: "Hiroshi Ishii, Dávid Lakatos, Leonardo Bonanni, Jean-Baptiste Labrune",
-          title: "Radical Atoms: Beyond Tangible Bits, Toward Transformable Materials",
+          authorText:
+            "Hiroshi Ishii, Dávid Lakatos, Leonardo Bonanni, Jean-Baptiste Labrune",
+          title:
+            "Radical Atoms: Beyond Tangible Bits, Toward Transformable Materials",
           publicationText: "Interactions 2012",
           link: "https://canvas.uw.edu/files/148758208",
         },
         instances: [
           {
-            authorText: "Junyi Zhu, Jackson C. Snowden, Joshua Verdejo, Emily Chen, Paul Zhang, Hamid Ghaednia, Joseph H. Schwab, Stefanie Mueller",
-            title: "EIT-kit: An Electrical Impedance Tomography Toolkit for Health and Motion Sensing",
+            authorText:
+              "Junyi Zhu, Jackson C. Snowden, Joshua Verdejo, Emily Chen, Paul Zhang, Hamid Ghaednia, Joseph H. Schwab, Stefanie Mueller",
+            title:
+              "EIT-kit: An Electrical Impedance Tomography Toolkit for Health and Motion Sensing",
             publicationText: "UIST 2021",
             link: "https://canvas.uw.edu/files/148758207",
           },
           {
-            authorText: "Yiyue Luo, Chao Liu, Young Joong Lee, Joseph DelPreto, Kui Wu, Michael Foshey, Daniela Rus, Tomás Palacios, Yunzhu Li, Antonio Torralba, Wojciech Matusik",
-            title: "Adaptive Tactile Interaction Transfer via Digitally Embroidered Smart Gloves",
+            authorText:
+              "Yiyue Luo, Chao Liu, Young Joong Lee, Joseph DelPreto, Kui Wu, Michael Foshey, Daniela Rus, Tomás Palacios, Yunzhu Li, Antonio Torralba, Wojciech Matusik",
+            title:
+              "Adaptive Tactile Interaction Transfer via Digitally Embroidered Smart Gloves",
             publicationText: "Nature Communications 2024",
             link: "https://canvas.uw.edu/files/148758204",
           },
@@ -601,12 +610,14 @@ export const calendarData: {
         instances: [
           {
             authorText: "Jeffrey Heer",
-            title: "Agency plus Automation: Designing Artificial Intelligence into Interactive Systems",
+            title:
+              "Agency plus Automation: Designing Artificial Intelligence into Interactive Systems",
             publicationText: "PNAS. 2019",
             link: "https://canvas.uw.edu/files/148758423",
           },
           {
-            authorText: "K. J. Kevin Feng, Kevin Pu, Matt Latzke, Tal August, Pao Siangliulue, Jonathan Bragg, Daniel S. Weld, Amy X. Zhang, Joseph Chee Chang",
+            authorText:
+              "K. J. Kevin Feng, Kevin Pu, Matt Latzke, Tal August, Pao Siangliulue, Jonathan Bragg, Daniel S. Weld, Amy X. Zhang, Joseph Chee Chang",
             title: "Cocoa: Co-Planning and Co-Execution with AI Agents",
             publicationText: "CHI 2026",
             link: "https://canvas.uw.edu/files/148758428",
@@ -659,14 +670,17 @@ export const calendarData: {
         // ],
         instances: [
           {
-            authorText: "Chenyan Jia, Michelle S. Lam, Minh Chau Mai, Jeffrey T. Hancock, Michael S. Bernstein.",
-            title: "Embedding Democratic Values into Social Media AIs via Societal Objective Functions",
+            authorText:
+              "Chenyan Jia, Michelle S. Lam, Minh Chau Mai, Jeffrey T. Hancock, Michael S. Bernstein.",
+            title:
+              "Embedding Democratic Values into Social Media AIs via Societal Objective Functions",
             publicationText: "CSCW 2024",
             link: "https://canvas.uw.edu/files/149562211",
           },
           {
             authorText: "Jack Bandy, Nicholas Diakopoulos",
-            title: "More Accounts, Fewer Links: How Algorithmic Curation Impacts Media Exposure in Twitter Timelines",
+            title:
+              "More Accounts, Fewer Links: How Algorithmic Curation Impacts Media Exposure in Twitter Timelines",
             publicationText: "CSCW 2021",
             link: "https://canvas.uw.edu/files/149562214",
           },
@@ -691,14 +705,17 @@ export const calendarData: {
         },
         instances: [
           {
-            authorText: "Audrey Desjardins, Jena McWhirter, Justin Petelka, Chandler Simon, Yuna Shin, Ruby K Peven, Philbert Widjaja",
-            title: "On the Making of Alternative Data Encounters: The Odd Interpreters",
+            authorText:
+              "Audrey Desjardins, Jena McWhirter, Justin Petelka, Chandler Simon, Yuna Shin, Ruby K Peven, Philbert Widjaja",
+            title:
+              "On the Making of Alternative Data Encounters: The Odd Interpreters",
             publicationText: "CHI 2023",
             link: "https://canvas.uw.edu/files/148762656",
           },
           {
             authorText: "Noura Howell, Audrey Desjardins, Sarah Fox",
-            title: "Cracks in the Success Narrative: Rethinking Failure in Design Research through a Retrospective Trioethnography",
+            title:
+              "Cracks in the Success Narrative: Rethinking Failure in Design Research through a Retrospective Trioethnography",
             publicationText: "ToCHI 2021",
             link: "https://canvas.uw.edu/files/148762672",
           },
@@ -716,7 +733,7 @@ export const calendarData: {
           authorText: "Brad Myers, Scott E. Hudson, Randy Pausch",
           title: "Past, Present, and Future of User Interface Software Tools",
           publicationText: "TOCHI 2000",
-          link: "https://canvas.uw.edu/files/148138926"
+          link: "https://canvas.uw.edu/files/148138926",
         },
         instances: [
           {
@@ -725,14 +742,14 @@ export const calendarData: {
             title:
               "The Ability-Based Design Mobile Toolkit (ABD-MT): Developer Support for Runtime Interface Adaptation Based on Users' Abilities",
             publicationText: "MobileHCI 2024",
-            link: "https://canvas.uw.edu/files/147793060"
+            link: "https://canvas.uw.edu/files/147793060",
           },
           {
             authorText:
               "Josh Pollock, Catherine Mei, Grace Huang, Elliot Evans, Daniel Jackson, Arvind Satyanarayan",
             title: "Bluefish: Composing Diagrams with Declarative Relations",
             publicationText: "UIST 2024",
-            link: "https://canvas.uw.edu/files/147793058"
+            link: "https://canvas.uw.edu/files/147793058",
           },
         ],
       },
@@ -753,7 +770,7 @@ export const calendarData: {
             "Gagan Bansal, Jennifer Wortman Vaughan, Saleema Amershi, Eric Horvitz, Adam Fourney, Hussein Mozannar, Victor Dibia, Daniel S. Weld",
           title: "Challenges in Human-Agent Communication",
           publicationText: "arXiv. 2024",
-          link: "https://canvas.uw.edu/files/148138718"
+          link: "https://canvas.uw.edu/files/148138718",
         },
         // TODO: Decide Spring 2026 instance papers.
         // instances: [
@@ -771,17 +788,17 @@ export const calendarData: {
           {
             authorText:
               "Hussein Mozannar, Gagan Bansal, Cheng Tan, Adam Fourney, Victor Dibia, Jingya Chen, Jack Gerrits, Tyler Payne, Matheus Kunzler Maldaner, Madeleine Grunde-McLaughlin, Eric Zhu, Griffin Bassman, Jacob Alber, Peter Chang, Ricky Loynd, Friederike Niedtner, Ece Kamar, Maya Murad, Rafah Hosn, Saleema Amershi",
-            title:
-              "Magentic-UI: Towards Human-in-the-loop Agentic Systems",
+            title: "Magentic-UI: Towards Human-in-the-loop Agentic Systems",
             publicationText: "arXiv 2025",
-            link: "https://canvas.uw.edu/files/149561485"
+            link: "https://canvas.uw.edu/files/149561485",
           },
           {
             authorText:
               "Faria Huq, Zora Zhiruo Wang, Frank F. Xu, Tianyue Ou, Shuyan Zhou, Jeffrey P. Bigham, Graham Neubig",
-            title: "COWPILOT: A Framework for Autonomous and Human-Agent Collaborative Web Navigation",
+            title:
+              "COWPILOT: A Framework for Autonomous and Human-Agent Collaborative Web Navigation",
             publicationText: "NAACL 2025 Demo",
-            link: "https://canvas.uw.edu/files/149561482"
+            link: "https://canvas.uw.edu/files/149561482",
           },
         ],
       },
@@ -803,21 +820,25 @@ export const calendarData: {
           title:
             "HCI Contributions in Mental Health: A Modular Framework to Guide Psychosocial Intervention Design",
           publicationText: "CHI 2024",
-          link: "https://canvas.uw.edu/files/149615618"
+          link: "https://canvas.uw.edu/files/149615618",
         },
         // TODO: Decide Spring 2026 instance papers.
         instances: [
           {
-            authorText: "Eunkyung Jo, Yuin Jeong, SoHyun Park, Daniel A. Epstein, Young-Ho Kim",
-            title: "Understanding the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention",
+            authorText:
+              "Eunkyung Jo, Yuin Jeong, SoHyun Park, Daniel A. Epstein, Young-Ho Kim",
+            title:
+              "Understanding the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention",
             publicationText: "CHI 2024",
-            link: "https://canvas.uw.edu/files/149615361"
+            link: "https://canvas.uw.edu/files/149615361",
           },
           {
-            authorText: "Jessica L. Jenness, Arpita Bhattacharya, Julie A. Kientz, Sean A. Munson, Ria R. Nagar", 
-            title: "Lessons Learned from Designing an Asynchronous Remote Community Approach for Behavioral Activation Intervention for Teens",
+            authorText:
+              "Jessica L. Jenness, Arpita Bhattacharya, Julie A. Kientz, Sean A. Munson, Ria R. Nagar",
+            title:
+              "Lessons Learned from Designing an Asynchronous Remote Community Approach for Behavioral Activation Intervention for Teens",
             publicationText: "Behaviour Research and Therapy 2022",
-            link: "https://canvas.uw.edu/files/149615360"
+            link: "https://canvas.uw.edu/files/149615360",
           },
         ],
       },
@@ -857,7 +878,8 @@ export const calendarData: {
           },
           {
             authorText: "Shaan Chopra, Jeanne Carroll, Jessica Pater",
-            title: "Providing Context to the “Unknown”: Patient and Provider Reflections on Connecting Personal Tracking, Patient-Reported Insights, and EHR Data within a Post-COVID Clinic",
+            title:
+              "Providing Context to the “Unknown”: Patient and Provider Reflections on Connecting Personal Tracking, Patient-Reported Insights, and EHR Data within a Post-COVID Clinic",
             publicationText: "CSCW 2024",
             link: "https://canvas.uw.edu/files/148941111",
           },

@@ -19,7 +19,6 @@ import {
 import { idAnchorText } from "@/utils/idAnchorText";
 import { ExpandCircleDownOutlined } from "@mui/icons-material";
 import { Box, Collapse, Grid, Paper, Typography } from "@mui/material";
-
 import { differenceInCalendarDays } from "date-fns";
 
 import { CALENDAR_DATE_FORMAT } from "./CourseCalendar";
@@ -32,14 +31,14 @@ export const CalendarDateLecture: React.FunctionComponent<{
   // Previous behavior expanded only current and future entries by default.
   // This logic is preserved here for easy restoration in future copies
   // of the website:
-  // 
+  //
   // const [expanded, setExpanded] = React.useState<boolean>(true);
   //
   const [expanded, setExpanded] = React.useState<boolean>(
     ((): boolean => {
       const dateCalendar = parseCalendarDate(calendarDate);
       const dateNow = Date.now();
-  
+
       return differenceInCalendarDays(dateCalendar, dateNow) >= 0;
     })(),
   );

@@ -25,19 +25,14 @@ export const CalendarDateAssignments: React.FunctionComponent<{
   calendarDate: CalendarDate;
   assignmentCalendarItems: AssignmentCalendarItem[];
 }> = ({ calendarDate, assignmentCalendarItems }) => {
-  const [expanded, setExpanded] = React.useState<boolean>(true);
-  // Previous behavior expanded only current and future entries by default.
-  // This logic is preserved here for easy restoration in future copies
-  // of the website:
-  //
-  // const [expanded, setExpanded] = React.useState<boolean>(
-  //   ((): boolean => {
-  //     const dateCalendar = parseCalendarDate(calendarDate);
-  //     const dateNow = Date.now();
-  //
-  //     return differenceInCalendarDays(dateCalendar, dateNow) >= 0;
-  //   })(),
-  // );
+  const [expanded, setExpanded] = React.useState<boolean>(
+    ((): boolean => {
+      const dateCalendar = parseCalendarDate(calendarDate);
+      const dateNow = Date.now();
+
+      return differenceInCalendarDays(dateCalendar, dateNow) >= 0;
+    })(),
+  );
 
   const toggleExpanded = () => {
     setExpanded(!expanded);
